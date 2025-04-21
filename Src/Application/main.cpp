@@ -30,6 +30,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInst, LPSTR lpszArgs, int
 bool Application::Init(int w, int h)
 {
 
+	m_test = 99999;
 	//===================================================================
 	// ウィンドウ作成
 	//===================================================================
