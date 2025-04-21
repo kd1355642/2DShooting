@@ -8,7 +8,6 @@ public:
 	C_Player() {}
 	~C_Player() {}
 
-	int m_test = 0;
 	void Init();
 	void Update();
 	void Draw();
@@ -20,4 +19,6 @@ public:
 	void SetOwner(Scene* pOwner) { m_pOwner = pOwner; }
 private:
 
+	float playerX, playerY;
+	int playerFlg;
 };

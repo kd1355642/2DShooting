@@ -14,13 +14,13 @@ void Scene::Update()
 void Scene::Init()
 {
 	// ‰æ‘œ‚Ì“Ç‚İ‚İˆ—
-	charaTex.Load("player.png");
+	m_playerTex.Load("Texture/player.png");
 }
 
 void Scene::Release()
 {
 	// ‰æ‘œ‚Ì‰ğ•úˆ—
-	charaTex.Release();
+	m_playerTex.Release();
 }
 
 void Scene::ImGuiUpdate()
