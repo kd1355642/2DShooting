@@ -138,7 +138,7 @@
     <ClInclude Include="Src\Application\Scene.h">
       <Filter>Src\Application</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
+    <ClInclude Include="Src\Application\player.h">
       <Filter>Src\Application</Filter>
     </ClInclude>
   </ItemGroup>
@@ -206,7 +206,7 @@
     <ClCompile Include="Src\Application\Scene.cpp">
       <Filter>Src\Application</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
+    <ClCompile Include="Src\Application\player.cpp">
       <Filter>Src\Application</Filter>
     </ClCompile>
   </ItemGroup>
